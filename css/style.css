@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Bar */
+
+.logo{
+    /* width: 20%;  */
+    display: flex;
+    padding: 0px 5px;
+    margin: 0px -81px;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    /* border: 2px solid white; */
+    border-radius: 150px;
+    width: 25%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    /* cursor: pointer; */
+}
+.nav-list{
+    /* background-color: black; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.nav-list li{
+    list-style: none;
+    padding: 18px 12px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    padding: 9px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.nav-list li a:hover{
+    color: white;
+    border: 2px solid white;
+    padding: 9px;
+    transition: all 0.3s ease-in;
+}
+.rightnav{
+    /* background-color: red; */
+    padding: 0px 18px;
+    width: 30%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+#search{
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Home Section */
+.firstsectiion{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 80%;
+    /* padding: 4px 0px; */
+    border: 2px solid white;
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 36px;
+}
+.text-small{
+    font-size: 18px;
+}
+.buttons{
+    display: block;
+    margin: auto;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 15px 0px;
+    background: none;
+    color: rgb(161, 161, 161);
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgb(161, 161, 161);
+}
+.btn-sm{
+    padding: 6px 18px;
+    margin: 15px;
+    vertical-align: middle;
+}
+.btn:hover{
+    transition: all 0.2s ease-in;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Mid Section */
+
+.secleft{
+    /* height: 441px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin:  50px auto;
+    justify-content: space-evenly;
+}
+.secright{
+    /* height: 405px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+.paras{
+    text-align: justify;
+    padding: 0px 36px;
+}
+.thumbnail img{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* Contact Section */
+.contact{
+    background-color: rgb(236, 246, 248);
+    height: 92vh;
+}
+.text-center{
+    text-align: center;
+    /* margin-top: 36px; */
+    padding-top: 27px;
+}
+.form{
+    max-width: 40%;
+    margin: 45px auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+.form-input{
+    font-size: 18px;
+    width: 100%;
+    padding: 9px;
+    margin: 12px 0px;
+    /* box decoration: none; */
+    border: 2px solid grey;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+    padding: 8px 20px;
+    margin: 15px 0px;
+    background: none;
+    cursor: pointer;
+}
+.btn-dark:hover{
+    transition: all 0.2s ease-in;
+    background-color: rgb(43, 44, 45);
+    color: rgb(236, 246, 248);
+}
+
+/* Footer */
+footer{
+    color: white;
+    background-color: black;
+    height: 25px;
+}
+.text-footer{
+    text-align: center;
+    font-size: 16px;
+    margin: 2px;
+    padding: 2px;
+}
+
+/* Burger */
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+

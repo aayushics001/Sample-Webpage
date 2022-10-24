@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1071px){
+
+    /* Responsive Navbar */
+        .navbar{
+            height: 360px;
+            flex-direction: column;
+            transition: all 0.3s ease-out;
+        }
+        .nav-list{
+            flex-direction: column;
+        }
+        .rightnav{
+            flex-direction: column;
+        }
+        #search{
+            width: 100%;
+        }
+        .burger{
+            display: block;
+        }
+        .h-nav-resp{
+            height: 63px;
+        }
+        .v-class-resp{
+            opacity: 0;
+        }
+    
+    /* Home Section */
+        .box-main{
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+        .text-big{
+            font-size: 24px;
+            text-align: center;
+        }
+        .text-small{
+            font-size: 12px;
+            text-align: center;
+        }
+        .btn{
+            padding: 8px 20px;
+            margin: 15px 0px;
+            background: none;
+            color: rgb(161, 161, 161);
+            border: none;
+            cursor: pointer;
+            border: 2px solid rgb(161, 161, 161);
+            text-align: center;
+        }
+        .btn-sm{
+            padding: 6px 18px;
+            margin: 15px;
+            vertical-align: middle;
+            text-align: center;
+        }
+    
+    /* Mid Section */
+        .secleft{
+            flex-direction: column;
+            /* align-items: center; */
+        }
+        .secright{
+            flex-direction: column-reverse;
+            /* align-items: center; */
+        }
+        .thumbnail img{
+            max-width: 30%;
+            /* margin: 12px 100px; */
+        }
+        .paras{
+            padding: 0px;
+        }
+    
+    /* Contact Section */
+        .form{
+            max-width: 60%;
+        }
+    }
+    
